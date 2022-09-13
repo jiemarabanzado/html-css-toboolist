@@ -17,6 +17,7 @@ header{
     margin-left: 15px;
     margin-top: 8px;
 }
+/*bottoni*/
 #bottoni{
     background-color: white;
     max-width: 1100px;
@@ -25,6 +26,9 @@ header{
     padding-top: 20px;
     padding-left: 45px;
     box-sizing: border-box;
+    margin-bottom: 3px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
     
 }
 #bottone1{
@@ -43,12 +47,132 @@ header{
     height: 30px;
     border: 2px solid lightgray;
 }
+.sezioni{
+    margin-bottom: 40px;
+}
+/*contenitore dei task*/
 #contenitore{
     background-color: white;
     max-width: 1100px;
     margin: auto;
-    height: 70px;
+    height: 570px;
     padding-top: 20px;
     padding-left: 45px;
     box-sizing: border-box;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+/*check e cross*/
+.check{
+    height: 20px;
+    width: 20px;
+    color: #64C0A9;
+    border:2px solid #64C0A9;
+    border-radius: 15px;
+    margin-right: 2px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 6px;
+}
+.cross{
+    height: 20px;
+    width: 20px;
+    color: red;
+    border:2px solid red;
+    border-radius: 15px;
+    margin-right: 2px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 6px;    
+}
+.task{
+    display: inline;
+    vertical-align: middle;
+}
+/*categorie*/
+.editorial{
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    background-color: #45ABEA;
+    width: 60px;
+    height: 20px;
+    box-sizing: border-box;
+    padding-top: 3px;
+    border-radius: 8px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.categoria{
+    margin-bottom: 10px;
+}
+.Goals{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    background-color: #9C72E4;
+    width: 65px;
+    height: 20px;
+    box-sizing: border-box;
+    padding-top: 3px;
+    border-radius: 8px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.Recruiting{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    background-color: #64C0A9;
+    width: 68px;
+    height: 20px;
+    box-sizing: border-box;
+    padding-top: 3px;
+    border-radius: 8px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.Mobile{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    background-color: #F29E33;
+    width: 60px;
+    height: 20px;
+    box-sizing: border-box;
+    padding-top: 3px;
+    border-radius: 8px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.Website{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    background-color: #D863A1;
+    width: 60px;
+    height: 20px;
+    box-sizing: border-box;
+    padding-top: 3px;
+    border-radius: 8px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.Sales{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    background-color: #B0C926;
+    width: 60px;
+    height: 20px;
+    box-sizing: border-box;
+    padding-top: 3px;
+    border-radius: 8px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.rows{
+    margin-bottom: 15px;
 }
